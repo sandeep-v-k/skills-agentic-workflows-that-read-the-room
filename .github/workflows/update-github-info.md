@@ -9,7 +9,7 @@ permissions:
   contents: read
   pull-requests: read
 
-model: gpt-4o-mini
+model: gpt-5.6-sol
 
 tools:
   github:
