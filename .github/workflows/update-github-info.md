@@ -9,7 +9,7 @@ permissions:
   contents: read
   pull-requests: read
 
-model: gpt-5-mini
+model: o1-mini
 
 tools:
   github:
