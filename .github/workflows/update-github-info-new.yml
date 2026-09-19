@@ -55,7 +55,7 @@
 #   - ghcr.io/github/gh-aw-node@sha256:0daa8971fa4732b647150cb6524a6b0804b68d5d24f6f58b5dd1af23bd63fb23
 #   - ghcr.io/github/github-mcp-server:v1.11.0@sha256:fbec75de11c255213fa08d80fb166abe73d851fff631c51c0079872967720699
 
-name: "update-github-info"
+name: "update-github-info-new"
 on:
   schedule:
     - cron: "34 18 * * *"  # Friendly format: daily (scattered)
