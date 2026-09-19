@@ -11,6 +11,8 @@ permissions:
 
 model: gpt-4o-mini
 
+env:
+  AWF_REFLECT_ENABLED: ${{ vars.AWF_REFLECT_ENABLED }}
 tools:
   github:
     toolsets: [repos]
