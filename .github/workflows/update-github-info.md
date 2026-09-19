@@ -9,8 +9,17 @@ permissions:
   contents: read
   pull-requests: read
 
-model: gpt-5-mini
+model: gpt-4o-mini
 
+env:
+  AWF_REFLECT_ENABLED: ${{ vars.AWF_REFLECT_ENABLED }}
+jobs:
+  activation:
+    env:
+      AWF_REFLECT_ENABLED: ${{ vars.AWF_REFLECT_ENABLED }}   # ✅ explicitly added
+  agent:
+    env:
+      AWF_REFLECT_ENABLED: ${{ vars.AWF_REFLECT_ENABLED }}   # ✅ explicitly added
 tools:
   github:
     toolsets: [repos]
